@@ -1,1 +1,11 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment variable files and directories
 .env
+.venv/
+
+# Ignore migrations
+task/migrations/
+user/migrations/
